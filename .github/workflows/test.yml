@@ -11,7 +11,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      
+      - name: install-node-modules
+        run: npm ci
+        shell: bash
       # Testing using the current dir
       - name: hello-action
         uses: phatblat/gha-javascript-action@test-current-dir
