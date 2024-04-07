@@ -24,6 +24,7 @@ cmake-build-debug/
 gradlew.bat
 heapdump.*.phd
 javacore.*.txt
+node_modules/
 obj/
 packages/
 target/
