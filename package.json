@@ -1,0 +1,13 @@
+{
+  "name": "gha-javascript-action",
+  "version": "1.0.0",
+  "description": "A simple [JavaScript](https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action) action.",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"Place build commands here\"",
+    "test": "echo \"Place test commands here\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
