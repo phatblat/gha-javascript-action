@@ -12,4 +12,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: hello-action
-        uses: ./
+        uses: ./.github/actions/hello-world
