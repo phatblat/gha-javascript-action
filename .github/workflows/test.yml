@@ -11,5 +11,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+      - name: install-node-modules
+        run: npm ci
+        shell: bash
+        working-directory: ./.github/actions/hello-world
       - name: hello-action
         uses: ./.github/actions/hello-world
