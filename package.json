@@ -7,7 +7,7 @@
     "build": "echo \"Place build commands here\"",
     "test": "echo \"Place test commands here\""
   },
-  "keywords": [],
+  "keywords": ["github", "actions"],
   "author": "",
   "license": "ISC",
   "dependencies": {
