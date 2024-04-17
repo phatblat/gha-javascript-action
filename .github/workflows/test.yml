@@ -13,4 +13,4 @@ jobs:
       - uses: actions/checkout@v4
       # Testing using the current dir
       - name: hello-action
-        uses: .
+        uses: ./action.yml
