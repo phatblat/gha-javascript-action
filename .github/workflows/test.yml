@@ -11,6 +11,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+      
       # Testing using the current dir
       - name: hello-action
-        uses: ./action.yml
+        uses: /home/runner/work/gha-javascript-action/gha-javascript-action
