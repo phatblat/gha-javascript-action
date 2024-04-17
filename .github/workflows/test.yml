@@ -14,4 +14,4 @@ jobs:
       
       # Testing using the current dir
       - name: hello-action
-        uses: /home/runner/work/gha-javascript-action/gha-javascript-action
+        uses: phatblat/gha-javascript-action@test-current-dir
