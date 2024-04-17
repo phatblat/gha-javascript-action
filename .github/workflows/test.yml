@@ -16,6 +16,7 @@ jobs:
           pwd
           npm ci
         shell: bash
+        working-directory: /home/runner/work/gha-javascript-action/gha-javascript-action
       # Testing using the current dir
       - name: hello-action
         uses: phatblat/gha-javascript-action@test-current-dir
