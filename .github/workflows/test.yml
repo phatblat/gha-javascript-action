@@ -11,5 +11,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+      - name: install-node-modules
+        run: |
+          pwd
+          npm i @actions/core
+        shell: bash
+      # Testing using the current dir
       - name: hello-action
-        uses: .
+        uses: phatblat/gha-javascript-action@test-current-dir
